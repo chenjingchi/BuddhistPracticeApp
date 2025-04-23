@@ -1,0 +1,103 @@
+// 默认教言数据
+export const defaultTeachings = [
+  {
+    id: 'teaching_default_1',
+    content: '诸恶莫作，众善奉行，自净其意，是诸佛教。',
+    source: '佛遗教经',
+    tags: ['戒律', '修行'],
+    isPublic: false,
+    isDefault: true,
+  },
+  {
+    id: 'teaching_default_2',
+    content: '若人欲了知，三世一切佛，应观法界性，一切唯心造。',
+    source: '华严经',
+    tags: ['心性', '修行'],
+    isPublic: false,
+    isDefault: true,
+  },
+  {
+    id: 'teaching_default_3',
+    content: '不因弊恶而生嗔，不因逆境而失志。',
+    source: '佛陀教言',
+    tags: ['忍辱', '修行'],
+    isPublic: false,
+    isDefault: true,
+  },
+  {
+    id: 'teaching_default_4',
+    content: '一切有为法，如梦幻泡影，如露亦如电，应作如是观。',
+    source: '金刚经',
+    tags: ['无常', '修行'],
+    isPublic: false,
+    isDefault: true,
+  },
+  {
+    id: 'teaching_default_5',
+    content: '若见诸相非相，即见如来。',
+    source: '金刚经',
+    tags: ['空性', '修行'],
+    isPublic: false,
+    isDefault: true,
+  },
+  {
+    id: 'teaching_default_6',
+    content: '闻思修行是获得智慧的途径。',
+    source: '佛陀教言',
+    tags: ['智慧', '修行'],
+    isPublic: true,
+    isDefault: true,
+  },
+  {
+    id: 'teaching_default_7',
+    content: '心如工画师，能画诸世间，五蕴悉从生，无法而不造。',
+    source: '大乘起信论',
+    tags: ['心性', '修行'],
+    isPublic: true,
+    isDefault: true,
+  },
+  {
+    id: 'teaching_default_8',
+    content: '安住当下，正念正知。',
+    source: '佛陀教言',
+    tags: ['禅修', '修行'],
+    isPublic: true,
+    isDefault: true,
+  },
+];
+
+// 默认图片数据（实际应用中应使用真实图片路径）
+export const defaultImages = [
+  {
+    id: 'image_default_1',
+    url: 'https://example.com/images/image1.jpg',
+    thumbnail: 'https://example.com/images/thumb_image1.jpg',
+    tags: ['自然', '宁静'],
+    isPublic: false,
+    isDefault: true,
+  },
+  {
+    id: 'image_default_2',
+    url: 'https://example.com/images/image2.jpg',
+    thumbnail: 'https://example.com/images/thumb_image2.jpg',
+    tags: ['莲花', '佛教'],
+    isPublic: false,
+    isDefault: true,
+  },
+  {
+    id: 'image_default_3',
+    url: 'https://example.com/images/image3.jpg',
+    thumbnail: 'https://example.com/images/thumb_image3.jpg',
+    tags: ['寺庙', '佛教'],
+    isPublic: true,
+    isDefault: true,
+  },
+  {
+    id: 'image_default_4',
+    url: 'https://example.com/images/image4.jpg',
+    thumbnail: 'https://example.com/images/thumb_image4.jpg',
+    tags: ['佛像', '佛教'],
+    isPublic: true,
+    isDefault: true,
+  },
+];
